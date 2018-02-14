@@ -4,7 +4,7 @@ deploy:
   access_key_id: <access-key-id>
   secret_access_key:
     secure: "Encypted <secret-access-key>="
-  region: "us-east-1"
-  app: "example-app-name"
-  env: "example-app-environment"
-  bucket_name: "the-target-S3-bucket"
+  region: "ap-northeast-2"
+  app: "aws_ci_seoul_test"
+  env: "awsCiSeoulTest-env"
+  bucket_name: "elasticbeanstalk-ap-northeast-2-141783989871"
