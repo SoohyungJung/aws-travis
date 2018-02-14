@@ -1,9 +1,9 @@
 language: node_js
 deploy:
   provider: elasticbeanstalk
-  access_key_id: <access-key-id>
+  access_key_id: 'AKIAIR4SEKETSZDT7UUA'
   secret_access_key:
-    secure: "Encypted <secret-access-key>="
+    secure: "iyk3FSDuUzqAabzECNtH9Avc1zNrDN5FUgQYWTO72MvceR8WoNUiQl+HEMRAuyvIOrzpOQA9fO/59SuOsRZlhuY0Vc1sOR644i7tMCDj6rGSnvKtydrCqk2toFRc1HnUtoswrv8rQW/A4NOv+AzbI0XvVxH+IAoGpAx93x7axNrZ+nPWD26lRvuVFhpKFPNe5J+3ih142GUsPn7oiOoySyNle8dYUO6h0jptoR5RO+qEEiHjMo76tEwTQmSkMDgucBzIwnUl1JzMeXELqTb1f8bwhcSam72Lxkxhw5s4pKPykBkFb6WSiT8SsH6cwfOZPPN6aV9N1BO1goYvct7a+K3W3sAB03/Y/smH2C5edy1llifjOwzR6mh51ZB+48ctGnktOoZlfcOpnUOz45k4coQGe8G38zHFsLkVJFYVERjlffPoQbbFYnQ1pSCsozweNQY4E9DACwPliP93wrXlhWxmglC+MuDEn79fthaqm7XTAIRlV8vyzgVmeCjFEEyjvciE3nntiH8JoqexpwTEVVC4fGpa3aUI3ZCA/Rz+B5VkGL//SdCOJVPc3o8djYomP3eNRhwTATEqSMk/2Db62XGjH7UI2ZuE9Qmby/r9Ix/cB4UVy7MPr0T/0lYjh7BByGDkBwpgMwsAOugPaEdDAvZ1zrg31v76RxLjwdZa+VU="
   region: "ap-northeast-2"
   app: "aws_ci_seoul_test"
   env: "awsCiSeoulTest-env"
